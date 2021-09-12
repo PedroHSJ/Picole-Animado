@@ -1,0 +1,265 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    background-image: url(imagens/p.jpg);
+ 
+}
+
+.popsicle{
+    margin-top: 20px;
+    margin-left: 610px;
+    
+    position: relative;
+    width: 150px;
+    height: 230px;
+    
+    border: 3px solid black;
+    border-radius: 75px 75px 0px 0px;
+    box-shadow: 5px 5px 2px #000;
+
+
+    background: linear-gradient(
+        315deg,
+        #BF0426 0%, #BF0426 10%,
+        #D94AA7 10%, #D94AA7 20%,
+        #03A6A6 20%, #03A6A6 30%,
+        #F2AC29 30%, #F2AC29 40%,
+        #D97904 40%, #D97904 50%,
+        #BF0426 50%, #BF0426 60%,
+        #D94AA7 60%, #D94AA7 70%,
+        #03A6A6 70%, #03A6A6 80%,
+        #F2AC29 80%, #F2AC29 90%,
+        #D97904 90%, #D97904 100%
+        );
+    background-size: 200% 200%;
+    animation: popsicle-animation 5s linear infinite forwards;
+}
+
+@keyframes popsicle-animation{
+    from{
+        background-position: 0% 0%;
+    }
+    to{
+        background-position: 100% 100%;
+    }
+}
+
+.stick{
+    position: absolute;
+    bottom: -80px;
+    left: 50%;
+    margin-left: -23px;
+    
+    background-color: #F2A444;
+    box-shadow: 5px 5px 2px #000;
+
+
+    width: 40px;
+    height: 80px;
+    border: 3px solid black;
+    border-radius: 0px 0px 20px 20px;
+}
+
+
+/*PICOLE 2*/
+
+.popsicle2{
+    position: relative;
+    margin-left: 250px;    
+
+    width: 150px;
+    height: 230px;
+
+    border: 3px solid black;
+    border-radius: 75px 75px 0px 0px;
+    box-shadow: 5px 5px 2px #000;
+
+    background: linear-gradient(
+        315deg,
+        #F20530 0%, #F20530 10%,
+        #0BD904 10%, #0BD904 20%,
+        #F20505 20%, #F20505 30%,
+        #BBBF45 30%, #BBBF45 40%,
+        #D97904 40%, #D97904 50%,
+        #F20530 50%, #F20530 60%,
+        #0BD904 60%, #0BD904 70%,
+        #F20505 70%, #F20505 80%,
+        #F2AC29 80%, #F2AC29 90%,
+        #D97904 90%, #D97904 100%
+        );
+    background-size: 200% 200%;
+
+    animation: popsicle-animation2 3s linear infinite forwards;
+
+}
+
+@keyframes popsicle-animation2{
+    from{
+        background-position: 0% 0%;
+    }
+
+    to{
+        background-position: 100% 100%;
+    }
+
+}
+
+
+.stick2{
+    border: 3px solid black;
+    border-radius: 0px 0px 20px 20px;
+    
+    width: 40px;
+    height: 80px;
+
+    position: absolute;
+    bottom: -80px;
+    left: 50%;
+    margin-left: -23px;
+
+    box-shadow: 5px 5px 2px #000;
+    background-color: #F2A444;
+}
+
+/*PICOLE 3*/
+
+.popsicle3{
+    position: relative;
+    
+    width: 150px;
+    height: 230px;
+
+    border: 3px solid black;
+    border-radius: 75px 75px 0px 0px;
+    box-shadow: 5px 5px 2px #000;
+
+    margin-left: 960px;
+    margin-top: -350px;
+
+    background: linear-gradient(
+        315deg,
+        #F57513 0%, #F57513 10%,
+        #FF1344 10%, #FF1344 20%,
+        #851DE8 20%, #851DE8 30%,
+        #1371FF 30%, #1371FF 40%,
+        #00F5A9 40%, #00F5A9 50%,
+        #F57513 50%, #F57513 60%,
+        #FF1344 60%, #FF1344 70%,
+        #851DE8 70%, #851DE8 80%,
+        #1371FF 80%, #1371FF 90%,
+        #00F5A9 90%, #00F5A9 100%
+        );
+    background-size: 200% 200%;
+
+    animation: popsicle-animation3 4s linear infinite forwards;
+}
+
+@keyframes popsicle-animation3{
+    from{
+        background-position: 100% 100%;
+    }
+    to{
+        background-position: 0% 0%;
+    }
+
+}
+
+.stick3{
+    border: 3px solid black;
+    border-radius: 0px 0px 20px 20px;
+
+    width: 40px;
+    height: 80px;
+
+    position: absolute;
+    bottom: -80px;
+    left: 50%;
+    margin-left: -23px;
+
+    background-color: #F2A444;
+    box-shadow: 5px 5px 2px #000;
+}
+
+
+h1{
+    position: absolute;
+    margin-left: 420px;
+    bottom: 40px;
+    
+    color: #FFF;
+
+    animation: title-animation 20s linear infinite forwards;
+   
+}
+
+@keyframes title-animation {
+    from{
+        margin-left: -560px;
+        color: #FFF, 80%;
+          
+    }
+    to{
+        margin-left: 950px;
+        color: rgba(255, 255, 255, 0);
+    }
+}
+
+
+/*BOTAO*/
+
+.saibamais a{
+    text-decoration: none;
+    color: #FFF;
+    
+    display: flex;
+    justify-content: center;
+
+    line-height: 55px;
+    font-weight: lighter;
+
+    
+    width: 140px;
+    height: 60px;
+
+    border: 3px solid #FFF;
+    border-radius: 10px;
+    background-color: rgb(255, 136, 0);
+    
+
+    margin-left: 1150px;
+    margin-top: 120px;
+}
+
+.saibamais a:hover{
+    text-decoration: none;
+    color: #FFF;
+    
+    display: flex;
+    justify-content: center;
+
+    line-height: 55px;
+    font-weight: lighter;
+
+    
+    width: 140px;
+    height: 60px;
+
+    border: 3px solid #FFF;
+    border-radius: 10px;
+    background-color: rgb(196, 132, 14);
+    
+
+    margin-left: 1150px;
+    margin-top: 120px;
+
+    
+}
+
+.saibamais p{
+    font-family: 'Oswald', sans-serif;
+}
